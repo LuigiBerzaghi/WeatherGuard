@@ -19,7 +19,7 @@ A API WeatherGuard monitora variáveis meteorológicas em tempo real (via OpenWe
 
 ---
 
-## 🚀 Como executar localmente
+## 🚀 Como executar a aplicação
 
 1. Acesse o [link para o index do Swagger](https://weatherguard-1ylt.onrender.com/swagger-ui/index.html)
 
