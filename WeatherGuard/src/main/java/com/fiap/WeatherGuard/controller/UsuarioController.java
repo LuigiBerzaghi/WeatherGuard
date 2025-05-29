@@ -51,8 +51,8 @@ public class UsuarioController {
     }
 
     // Buscar usuário por ID
-    @SecurityRequirement(name = "bearerAuth")
     @GetMapping("/{id}")
+    @SecurityRequirement(name = "bearerAuth")
     public ResponseEntity<UsuarioDTO> buscarPorId(@PathVariable Long id) {
         Usuario usuario = usuarioService.buscarPorId(id);
         UsuarioDTO dto = UsuarioMapper.toDTO(usuario);
@@ -70,8 +70,8 @@ public class UsuarioController {
 
 
     // Atualizar dados do usuário
-    @SecurityRequirement(name = "bearerAuth")
     @PutMapping("/{id}")
+    @SecurityRequirement(name = "bearerAuth")
     public ResponseEntity<UsuarioDTO> atualizar(@PathVariable Long id, @Valid @RequestBody Usuario usuario) {
         Usuario atualizado = usuarioService.atualizar(id, usuario);
         UsuarioDTO dto = UsuarioMapper.toDTO(atualizado);
@@ -92,7 +92,4 @@ public class UsuarioController {
     public ResponseEntity<UsuarioDTO> me(@AuthenticationPrincipal Usuario usuario) {
         return ResponseEntity.ok(UsuarioMapper.toDTO(usuario));
     }
-
-
-
 }
