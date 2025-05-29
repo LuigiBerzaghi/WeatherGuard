@@ -4,6 +4,10 @@ Sistema de Alerta Climático Inteligente - Backend em Java com Spring Boot
 
 A API WeatherGuard monitora variáveis meteorológicas em tempo real (via OpenWeatherMap), identifica condições de risco (como vendavais, chuvas intensas ou calor extremo) e gera alertas automáticos para os usuários cadastrados conforme sua cidade. A aplicação contempla cadastro de usuários, autenticação com JWT, gerenciamento de alertas e consumo de API externa com análise inteligente.
 
+Com base nesses dados, o sistema identifica condições críticas e gera automaticamente alertas para cada usuário. Esses alertas são exibidos em um aplicativo mobile intuitivo.
+
+Mais do que uma aplicação técnica, o WeatherGuard é uma iniciativa com impacto social, que busca informar, prevenir e salvar vidas por meio da tecnologia.
+
 ---
 
 ## 📌 Tecnologias Utilizadas
