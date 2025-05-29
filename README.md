@@ -21,34 +21,7 @@ A API WeatherGuard monitora variáveis meteorológicas em tempo real (via OpenWe
 
 ## 🚀 Como executar localmente
 
-1. Clone o repositório:
-
-```bash
-git clone https://github.com/LuigiBerzaghi/WeatherGuard.git
-cd WeatherGuard
-```
-
-2. Configure as credenciais no `application.properties`:
-
-```properties
-spring.datasource.url=jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL
-spring.datasource.username=SEU_USUARIO
-spring.datasource.password=SUA_SENHA
-spring.jpa.database-platform=org.hibernate.dialect.OracleDialect
-openweather.api.key=SUA_CHAVE_AQUI
-```
-
-3. Rode o projeto:
-
-```bash
-./mvnw spring-boot:run
-```
-
-4. Acesse a documentação interativa:
-
-```
-http://localhost:8080/swagger-ui.html
-```
+1. Acesse o [Link para o index do Swagger](https://weatherguard-1ylt.onrender.com/swagger-ui/index.html)
 
 ---
 
@@ -113,10 +86,6 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9...
 
 ---
 
-## ☁️ Deploy na Render
-1.[Link para o index do Swagger](https://weatherguard-1ylt.onrender.com/swagger-ui/index.html)
-
----
 ## 👤 Autor
 
 Luigi Berzaghi
