@@ -108,11 +108,15 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9...
 * [x] Associação de alertas a usuários por cidade
 * [x] Documentação Swagger/OpenAPI
 * [x] Paginação, ordenação e filtro por cidade
-* [ ] Dockerfile (em progresso)
-* [ ] Deploy (em progresso)
+* [x] Dockerfile
+* [x] Deploy em nuvem
 
 ---
 
+## ☁️ Deploy na Render
+1.[Link para o index do Swagger](https://weatherguard-1ylt.onrender.com/swagger-ui/index.html)
+
+---
 ## 👤 Autor
 
 Luigi Berzaghi
