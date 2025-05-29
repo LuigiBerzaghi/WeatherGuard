@@ -13,8 +13,8 @@ Mais do que uma aplicação técnica, o WeatherGuard é uma iniciativa com impac
 ## 📌 Tecnologias Utilizadas
 
 * Java 17
-* Spring Boot 3
-* Spring Data JPA + Oracle DB
+* Spring Boot 
+* Spring Data JPA + Postgree DB
 * Spring Security + JWT
 * OpenWeatherMap API (clima em tempo real)
 * Swagger (SpringDoc OpenAPI)
