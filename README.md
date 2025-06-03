@@ -90,8 +90,12 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9...
 
 ---
 
-## 👤 Autor
+## 👨‍💻 Autores
 
-Luigi Berzaghi
-FIAP - Análise e Desenvolvimento de Sistemas
-Global Solution 2025/1
+**Luigi Berzaghi** - RM555516
+
+**Guilherme Pelissari** - RM558445
+
+**Cauã dos Santos** - RM559093
+
+---
